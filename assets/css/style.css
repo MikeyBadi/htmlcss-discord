@@ -12,7 +12,7 @@
 }
 
 .container{
-  margin: 0 10%;
+  margin: 0 15%;
   max-width: 1600px;
 }
 
@@ -40,7 +40,7 @@ nav{
  float: left;
 }
 
-nav button{
+nav button, footer button{
   float: right;
   display: inline-block;
 }
@@ -147,3 +147,29 @@ main{
   vertical-align: middle;
   padding-top: 50px;
 }
+/* 
+  FOOTER
+*/
+footer{
+  background-color: rgb(48, 28, 121);
+  height: 900px;
+}
+
+/* info */
+
+.col{
+  float: left;
+  margin-bottom: 40px;
+
+}
+
+.col-left{
+  width: 25%;
+}
+.col-sec{
+  width: 18%;
+}
+.col-sec a{
+  display: block;
+}
+
