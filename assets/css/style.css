@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* UTILITIES */
+.container{
+  margin: 0 15%;
+}
+
+/* NAV */
+
+main{
+  background-color: blue; /* da cambiare colore */
+  width: 100%;
+}
+nav{
+  width: 100%;
+  padding-top: 20px;
+}
+
+.logo{
+ float: left;
+}
+
+nav button{
+  float: right;
+  display: inline-block;
+}
+
+nav ul{
+  float: left;
+  /* padding: 0 30%; */
+  width: calc(100% - 124px - 47px);
+  text-align: center;
+}
+
+nav ul li{
+  display: inline-block;
+  text-align: center;
+}
+
