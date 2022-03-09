@@ -13,6 +13,7 @@
 
 .container{
   margin: 0 10%;
+  max-width: 1600px;
 }
 
 .elements:nth-child(odd){
@@ -46,7 +47,6 @@ nav button{
 
 nav ul{
   float: left;
-  /* padding: 0 30%; */
   width: calc(100% - 124px - 47px);
   text-align: center;
 }
@@ -80,17 +80,70 @@ main{
   background-color: blueviolet;
 }
 
-/* elements */
-
-.image{
-  width: 630px;
-  float: left;
+.elements{
+  height: 100%;
+  padding: 10% 0;
 }
-.image img{
+.content{
+
+}
+
+/* elements */
+.elements .image{
+  width: 610px;
+}
+.elements .image img{
   max-width: 100%;
 }
-
-.text{
-  float: right;
+.elements .text{
   width: 350px;
+  padding-top: 35px;
+}
+
+/* float even */
+.even .image{
+  float: left;
+}
+
+.even .text{
+  float: right;
+}
+
+/* float odd */
+.odd .image{
+  float: right;
+}
+
+.odd .text{
+  float: left;
+}
+
+/* last main element */
+
+.lst-el{
+  text-align: center;
+  padding-bottom: 30px;
+
+}
+
+.big-image img{
+  display: block;
+  margin: 0 auto;
+}
+
+.bttn-txt{
+  background-image: url(../img/stars.svg);
+  width: 600px;
+  height: 75px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 0 auto;
+}
+
+.sprinkles{
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  padding-top: 50px;
 }
