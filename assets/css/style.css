@@ -4,20 +4,29 @@
   box-sizing: border-box;
 }
 
-.clearfix{
+/* UTILITIES */
+.clearfix::after{
   content: '';
   display: table;
   clear: both;
 }
 
-/* UTILITIES */
 .container{
-  margin: 0 15%;
+  margin: 0 10%;
 }
 
-/* NAV */
+.elements:nth-child(odd){
+  background-color: green;
+}
+.elements:nth-child(even){
+  background-color: grey;
+}
 
-main{
+/* 
+  HEADER 
+*/
+
+header{
   background-color: blue; /* da cambiare colore */
   width: 100%;
 }
@@ -62,4 +71,26 @@ nav ul li{
   top: 50%;
   background-color: aqua;
   transform: translate(-50% , -50%);
+}
+
+/* 
+  MAIN 
+*/
+main{
+  background-color: blueviolet;
+}
+
+/* elements */
+
+.image{
+  width: 630px;
+  float: left;
+}
+.image img{
+  max-width: 100%;
+}
+
+.text{
+  float: right;
+  width: 350px;
 }
