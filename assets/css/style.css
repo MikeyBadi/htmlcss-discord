@@ -52,7 +52,6 @@ nav{
 
 nav .bttn, footer .bttn{
   float: right;
-  display: inline-block;
   vertical-align: middle;
 }
 
